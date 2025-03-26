@@ -45,8 +45,8 @@ const Section = () => {
         // icons
         <button onClick={toggleMute}>{
           isMuted
-          ? {maybeSVGPlayIcon}
-          : {maybeSVGMutedIcon}
+          ? maybeSVGMutedIcon
+          : maybeSVGPlayIcon
         }</button>
     )
 }
