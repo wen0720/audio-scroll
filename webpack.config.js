@@ -1,5 +1,6 @@
 import path from 'path';
 import { fileURLToPath } from 'url';
+import packageJson from './package.json' assert { type: "json" };
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -13,11 +14,11 @@ export default {
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: '[name]-[fullhash].js',
+    filename: '[name].umd.js',
     clean: true,
     library: {
       type: 'umd',
-      name: 'scrollAudio',
+      name: packageJson.name,
     }
   },
   externals: {
@@ -35,12 +36,6 @@ export default {
       amd: 'react-dom',
       module: 'react-dom'
     }
-    // 'react': {
-    //   module: 'react'
-    // },
-    // 'react-dom': {
-    //   module: 'react-dom'
-    // }
   },
   module: {
     rules: [

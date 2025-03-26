@@ -47,7 +47,6 @@ export function useAudioScroll({ path }) {
           return;
         }
         if (entry.isIntersecting && !localIsPlaying.current) {
-          console.log(entry.isIntersecting);
           playAudio();
         } else if (
           !entry.isIntersecting

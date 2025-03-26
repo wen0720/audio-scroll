@@ -1,8 +1,10 @@
 {
   "name": "audio-scroll",
-  "version": "1.0.0",
-  "description": "",
-  "private": true,
+  "version": "1.0.1",
+  "description": "audio-scroll is just a simple tool for developer to implement audio feature when reading articles on website.",
+  "main": "src/react/index.js",
+  "module": "src/react/index.js",
+  "umd": "dist/react.umd.js",
   "type": "module",
   "scripts": {
     "dev": "webpack serve --config ./dev/webpack.config.js",
@@ -21,15 +23,15 @@
     "eslint-plugin-react": "^7.37.4",
     "eslint-plugin-react-hooks": "^5.2.0",
     "html-webpack-plugin": "^5.6.3",
+    "react-dom": "^19.0.0",
     "style-loader": "^4.0.0",
+    "styled-components": "^6.1.16",
     "url-loader": "^4.1.1",
     "webpack": "^5.98.0",
     "webpack-cli": "^6.0.1",
     "webpack-dev-server": "^5.2.0"
   },
   "dependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "styled-components": "^6.1.16"
+    "react": "^19.0.0"
   }
 }

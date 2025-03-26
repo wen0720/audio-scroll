@@ -1,7 +1,9 @@
-# Audio scroll
+# audio-scroll
+
+![npm (latest)](https://img.shields.io/npm/v/audio-scroll/latest)
 
 ## Introduction
-`audio scroll` is just a simple tool for developer to implement audio feature when reading articles on website.
+`audio-scroll` is just a simple tool for developer to implement audio feature when reading articles on website.
 
 It works as follows:
 
