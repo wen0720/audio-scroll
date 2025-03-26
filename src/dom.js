@@ -1,25 +1,6 @@
 // TODO: 錯誤處理
 
-
-// /**
-//  * 聲音自動播放
-//  * @param {Object} options
-//  * @param {string} options.audioPath - 聲音檔案路徑
-//  * @param {HTMLElement} options.audioTopEntry - 聲音開始播方進入點
-//  * @param {HTMLElement} options.audioBottomEntry - 聲音暫停播方進入點
-//  */
 export default class AudioScroll {
-  /**
-   * 聲音設定檔
-    * @type {Object.<string, {
-    *  path: string,
-    *  isPlaying: boolean,
-    *  audioTopEntry: HTMLElement,
-    *  audioBottomEntry: HTMLElement,
-    *  allowAudioPlayElement: HTMLElement,
-    *  audio: HTMLAudioElement
-    * }>}
-   */
   audioConfigs = {};
   isAllowAudioplay = false;
   aduioWrapper;

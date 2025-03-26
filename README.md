@@ -20,7 +20,9 @@ Basically, you need to implement your own HTML and position all entryRef(`topEnt
 
 Note that `toggleMute` is a important method because audio won't play automatically until user interaction with web page. It's a known issue for browser and I haven't a found good solution. So you need to call `toggleMute` one time to let audio trigger automatically when scroll.
 
-```jsx=
+```js
+import { useAudioScroll } from 'audio-scroll';
+
 const Section = () => {
     const {
         topEntryRef,
