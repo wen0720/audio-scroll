@@ -1,6 +1,6 @@
 {
   "name": "audio-scroll",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "audio-scroll is just a simple tool for developer to implement audio feature when reading articles on website.",
   "main": "src/react/index.js",
   "module": "src/react/index.js",
